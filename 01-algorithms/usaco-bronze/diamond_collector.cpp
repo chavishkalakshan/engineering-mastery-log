@@ -1,4 +1,3 @@
-cat << 'EOF' > 01-algorithms/usaco-bronze/diamond_collector.cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -31,4 +30,3 @@ int main() {
     cout << max_diamonds << "\n";
     return 0;
 }
-EOF
