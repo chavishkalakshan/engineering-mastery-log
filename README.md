@@ -1,26 +1,42 @@
-# Engineering Mastery Log 🚀
+# Engineering Mastery Log
 
-A disciplined 12-month engineering journal tracking progress across Algorithms & Data Structures, Backend Systems, Cybersecurity, and Applied Machine Learning.
+**C++ · Algorithms · Data Structures · Linux & Cybersecurity Fundamentals**
+
+A collection of programming exercises, data structure implementations, and practical technical notes from my computer engineering studies. The focus is on source code, problem-solving techniques, and reproducible examples.
+
+## Repository contents
+
+| Area | What's included |
+| --- | --- |
+| [Algorithms & Data Structures](01-algorithms/README.md) | C++ solutions for USACO and CSES problems, plus data structure implementations |
+| [Backend Systems](02-backend-systems/README.md) | Notes and examples related to backend development |
+| [Cybersecurity Notes](03-cybersecurity-notes/README.md) | Linux command-line fundamentals and security learning notes |
+| [Machine Learning](04-machine-learning/README.md) | A space for machine-learning experiments and technical notes |
+
+## Highlighted code
+
+| Example | Concept | Code |
+| --- | --- | --- |
+| Cow Gymnastics (USACO) | Ranking comparisons across sessions | [C++](01-algorithms/usaco-bronze/cow_gymnastics.cpp) |
+| Diamond Collector (USACO) | Range checking | [C++](01-algorithms/usaco-bronze/diamond_collector.cpp) |
+| Weird Algorithm (CSES) | Simulation | [C++](01-algorithms/cses/weird_algorithm.cpp) |
+| Array-Based Stack | Stack operations and boundary conditions | [C++](01-algorithms/university-dsa/stack_array.cpp) |
+
+## Running the C++ examples
+
+A C++17-compatible compiler is recommended. For example:
+
+```bash
+g++ -std=c++17 -Wall -Wextra 01-algorithms/cses/weird_algorithm.cpp -o weird_algorithm
+./weird_algorithm
+```
+
+Provide input as described by each problem. These programs are educational exercises rather than packaged applications.
+
+## Technical notes
+
+The [Linux CLI notes](03-cybersecurity-notes/linux-cli-notes.md) contain commands for exploring files and directories, reading content, and using SSH in authorized learning environments.
 
 ---
 
-## 📊 Core Pillars & Progress
-
-| Pillar | Focus Areas | Current Milestone | Status |
-| :--- | :--- | :--- | :--- |
-| **01. Algorithms** | USACO Bronze/Silver, CSES, Codeforces | Bronze Complete Search & Simulation | 🟡 In Progress |
-| **02. Backend Systems** | Python (FastAPI), PostgreSQL, Docker, Redis | Environment Setup & HTTP Internals | 🟡 In Progress |
-| **03. Cybersecurity** | Web Security Academy, PortSwigger, TryHackMe | Linux PrivEsc & SQLi Apprentice | ⚪ Pending |
-| **04. Machine Learning** | Kaggle Learn, Pandas, Scikit-Learn, PyTorch | Tabular Foundations & XGBoost | ⚪ Pending |
-
----
-
-## 🛠️ Engineering Environment
-- **OS / Shell:** Windows (UCRT64 / Git Bash) & Kali Linux VM
-- **Primary Languages:** C++17 (Competitive Programming), Python 3.11+ (Backend / Security / AI)
-- **Tooling:** Git, VS Code, Burp Suite Community, Docker
-
----
-
-## 📈 Daily Log
-- **Day 0:** Workstation configured, SSH verified, master repo structure initialized.
+<sub>Educational code and reference notes. Individual files provide implementation details.</sub>
